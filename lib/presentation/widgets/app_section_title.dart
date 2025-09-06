@@ -11,9 +11,9 @@ class AppSectionTitle extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: 24,
+          height: 72,
           width: 24,
-          decoration: BoxDecoration(color: AppColors.primary),
+          decoration: BoxDecoration(gradient: AppColors.primaryWhite),
         ),
         Container(
           padding: EdgeInsets.all(10),

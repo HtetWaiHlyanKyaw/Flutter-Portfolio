@@ -34,8 +34,20 @@ class AppColors {
     end: Alignment.bottomRight,
   );
 
+  static final Gradient primaryWhite = LinearGradient(
+    colors: [Color(0xFF4E65FF), white.withAlpha(25)],
+    begin: Alignment.bottomCenter,
+    end: Alignment.topCenter,
+  );
+
   static const Gradient purpleRed = LinearGradient(
     colors: [Color(0xFF4F399C), Color(0xFF9C3839)],
+    begin: Alignment.topLeft,
+    end: Alignment.bottomRight,
+  );
+
+  static const Gradient greenBlue = LinearGradient(
+    colors: [Color(0xFF394D9C), Color(0xFF389C6F)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );

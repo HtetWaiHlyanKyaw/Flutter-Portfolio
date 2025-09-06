@@ -24,7 +24,7 @@ class _EducationSectionMobileState extends State<EducationSectionMobile> {
         Container(
           // decoration: BoxDecoration(gradient: AppColors.purpleBlue),
           padding: const EdgeInsets.symmetric(
-            horizontal: 16,
+            horizontal: 32,
             // vertical: 32,
           ),
           child: SizedBox(
@@ -39,7 +39,7 @@ class _EducationSectionMobileState extends State<EducationSectionMobile> {
                       Expanded(
                         flex: 1,
                         child: Padding(
-                          padding: const EdgeInsets.only(bottom: 6),
+                          padding: const EdgeInsets.only(bottom: 4),
                           child: AppEducationImageMobile(
                             title: 'Practising High School',
                             list: [
@@ -47,15 +47,15 @@ class _EducationSectionMobileState extends State<EducationSectionMobile> {
                               'GPA: 3.35 / 4.0',
                               '4 Distinctions',
                             ],
-                            image: 'assets/images/high school.jpeg',
-                            gradient: AppColors.blueGreen,
+                            image: 'assets/images/high school bw.jpg',
+                            gradient: AppColors.purpleRed,
                           ),
                         ),
                       ),
                       Expanded(
                         flex: 1,
                         child: Padding(
-                          padding: const EdgeInsets.only(top: 6),
+                          padding: const EdgeInsets.only(top: 4),
                           child: AppEducationImageMobile(
                             title: 'J-PRO Vocational School',
                             list: [
@@ -63,7 +63,7 @@ class _EducationSectionMobileState extends State<EducationSectionMobile> {
                               'ITPEC IP & FE Certifications',
                               'Java, PHP, SQL and More',
                             ],
-                            image: 'assets/images/j pro.jpeg',
+                            image: 'assets/images/j pro bw.jpg',
                             gradient: AppColors.purpleRed,
                           ),
                         ),
@@ -71,14 +71,14 @@ class _EducationSectionMobileState extends State<EducationSectionMobile> {
                     ],
                   ),
                 ),
-                const SizedBox(width: 12),
+                const SizedBox(width: 8),
 
                 Expanded(
                   flex: 1,
                   child: AppEducationImageMobile(
                     title: 'University (upcoming)',
-                    image: 'assets/images/english together.jpg',
-                    gradient: AppColors.redYellow,
+                    image: 'assets/images/english together bw.jpeg',
+                    gradient: AppColors.purpleRed,
                   ),
                 ),
               ],

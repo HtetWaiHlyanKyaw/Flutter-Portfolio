@@ -38,7 +38,7 @@ class _AppProfileImageCardState extends State<AppProfileImageCard> {
                 )
               : ShaderMask(
                   shaderCallback: (bounds) =>
-                      AppColors.orangeRed.createShader(bounds),
+                      AppColors.orangeRed.withOpacity(0.8).createShader(bounds),
                   blendMode: BlendMode.screen,
                   child: Image.asset(
                     'assets/images/portrait.png',

@@ -65,17 +65,17 @@ class TabletHome extends StatelessWidget {
             child: SafeArea(
               child: Column(
                 children: [
-                  AppSpacings.heightMedium,
+                  AppSpacings.heightLarge,
                   HeroSectionTablet(),
-                  AppSpacings.mobileSectionSpacing,
+                  AppSpacings.tabletSectionSpacing,
                   AboutSectionTablet(key: aboutKey),
-                  AppSpacings.mobileSectionSpacing,
+                  AppSpacings.tabletSectionSpacing,
                   SkillsSectionTablet(key: skillsKey),
-                  AppSpacings.mobileSectionSpacing,
+                  AppSpacings.tabletSectionSpacing,
                   ProjectsSectionTablet(key: projectsKey),
-                  AppSpacings.mobileSectionSpacing,
+                  AppSpacings.tabletSectionSpacing,
                   EducationSectionTablet(key: educationKey),
-                  AppSpacings.mobileSectionSpacing,
+                  AppSpacings.tabletSectionSpacing,
                   AppFooterTablet(),
                   AppSpacings.heightMedium,
                 ],

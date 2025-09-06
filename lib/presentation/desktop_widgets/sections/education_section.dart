@@ -18,7 +18,7 @@ class EducationSection extends StatelessWidget {
         Container(
           // decoration: BoxDecoration(gradient: AppColors.purpleBlue),
           padding: const EdgeInsets.symmetric(
-            horizontal: 160,
+            horizontal: 200,
             // vertical: 32,
           ),
           child: SizedBox(
@@ -33,7 +33,7 @@ class EducationSection extends StatelessWidget {
                       Expanded(
                         flex: 1,
                         child: Padding(
-                          padding: const EdgeInsets.only(bottom: 12),
+                          padding: const EdgeInsets.only(bottom: 4),
                           child: AppEducationImage(
                             title: 'Practising High School',
                             list: [
@@ -41,15 +41,15 @@ class EducationSection extends StatelessWidget {
                               'GPA: 3.35 / 4.0',
                               '4 Distinctions',
                             ],
-                            image: 'assets/images/high school.jpeg',
-                            gradient: AppColors.blueGreen,
+                            image: 'assets/images/high school bw.jpg',
+                            gradient: AppColors.purpleRed,
                           ),
                         ),
                       ),
                       Expanded(
                         flex: 1,
                         child: Padding(
-                          padding: const EdgeInsets.only(top: 12),
+                          padding: const EdgeInsets.only(top: 4),
                           child: AppEducationImage(
                             title: 'J-PRO Vocational School',
                             list: [
@@ -57,7 +57,7 @@ class EducationSection extends StatelessWidget {
                               'ITPEC IP & FE Certifications',
                               'Java, PHP, SQL and More',
                             ],
-                            image: 'assets/images/j pro.jpeg',
+                            image: 'assets/images/j pro bw.jpg',
                             gradient: AppColors.purpleRed,
                           ),
                         ),
@@ -65,14 +65,14 @@ class EducationSection extends StatelessWidget {
                     ],
                   ),
                 ),
-                const SizedBox(width: 24),
+                const SizedBox(width: 8),
 
                 Expanded(
                   flex: 1,
                   child: AppEducationImage(
                     title: 'University (upcoming)',
-                    image: 'assets/images/english together.jpg',
-                    gradient: AppColors.redYellow,
+                    image: 'assets/images/english together bw.jpeg',
+                    gradient: AppColors.purpleRed,
                   ),
                 ),
               ],

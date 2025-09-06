@@ -19,7 +19,7 @@ class EducationSectionTablet extends StatelessWidget {
         Container(
           // decoration: BoxDecoration(gradient: AppColors.purpleBlue),
           padding: const EdgeInsets.symmetric(
-            horizontal: 64,
+            horizontal: 96,
             // vertical: 32,
           ),
           child: SizedBox(
@@ -42,8 +42,8 @@ class EducationSectionTablet extends StatelessWidget {
                               'GPA: 3.35 / 4.0',
                               '4 Distinctions',
                             ],
-                            image: 'assets/images/high school.jpeg',
-                            gradient: AppColors.blueGreen,
+                            image: 'assets/images/high school bw.jpg',
+                            gradient: AppColors.purpleRed,
                           ),
                         ),
                       ),
@@ -58,7 +58,7 @@ class EducationSectionTablet extends StatelessWidget {
                               'ITPEC IP & FE Certifications',
                               'Java, PHP, SQL and More',
                             ],
-                            image: 'assets/images/j pro.jpeg',
+                            image: 'assets/images/j pro bw.jpg',
                             gradient: AppColors.purpleRed,
                           ),
                         ),
@@ -72,8 +72,8 @@ class EducationSectionTablet extends StatelessWidget {
                   flex: 1,
                   child: AppEducationImageTablet(
                     title: 'University (upcoming)',
-                    image: 'assets/images/english together.jpg',
-                    gradient: AppColors.redYellow,
+                    image: 'assets/images/english together bw.jpeg',
+                    gradient: AppColors.purpleRed,
                   ),
                 ),
               ],

@@ -31,15 +31,15 @@ class _AppEducationImageState extends State<AppEducationImage> {
         _isHovered = false;
       }),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(12),
+        // borderRadius: BorderRadius.circular(12),
         child: Stack(
           fit: StackFit.expand,
           children: [
             _isHovered
                 ? Image.asset(
                     widget.image,
-                    fit: BoxFit.cover, // crop & fill
-                    width: double.infinity, // ensure full width
+                    fit: BoxFit.cover,
+                    width: double.infinity,
                   )
                 : ShaderMask(
                     shaderCallback: (bounds) =>
@@ -47,8 +47,8 @@ class _AppEducationImageState extends State<AppEducationImage> {
                     blendMode: BlendMode.screen,
                     child: Image.asset(
                       widget.image,
-                      fit: BoxFit.cover, // crop & fill
-                      width: double.infinity, // ensure full width
+                      fit: BoxFit.cover,
+                      width: double.infinity,
                     ),
                   ),
             _isHovered

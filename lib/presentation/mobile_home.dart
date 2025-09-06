@@ -17,6 +17,8 @@ class MobileHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
+    final screenHeight = MediaQuery.of(context).size.height;
+
     final aboutKey = GlobalKey();
     final skillsKey = GlobalKey();
     final projectsKey = GlobalKey();
@@ -59,13 +61,14 @@ class MobileHome extends StatelessWidget {
               }
             },
           ),
-
           SliverToBoxAdapter(
             child: SafeArea(
               child: Column(
                 children: [
-                  // AppSpacings.heightMedium,
+                  AppSpacings.mobileSectionSpacing,
+
                   HeroSectionMobile(),
+                  AppSpacings.mobileSectionSpacing,
                   AppSpacings.mobileSectionSpacing,
                   AboutSectionMobile(key: aboutKey),
                   AppSpacings.mobileSectionSpacing,

@@ -18,4 +18,7 @@ class AppSpacings {
 
   static const SizedBox desktopSectionSpacing = heightExtraLarge;
   static const SizedBox desktopTitleSpacing = heightLarge;
+
+  static const SizedBox tabletSectionSpacing = heightExtraLarge;
+  static const SizedBox tabletTitleSpacing = heightLarge;
 }

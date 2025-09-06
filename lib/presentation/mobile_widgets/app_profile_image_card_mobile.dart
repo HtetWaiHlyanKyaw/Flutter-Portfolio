@@ -23,11 +23,11 @@ class _AppProfileImageCardMobileState extends State<AppProfileImageCardMobile> {
         _isHovered = false;
       }),
       child: ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: 480),
+        constraints: BoxConstraints(maxWidth: 360),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 64),
           child: Container(
-            padding: EdgeInsets.all(24),
+            padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
               color: AppColors.white,
               borderRadius: BorderRadius.circular(16),

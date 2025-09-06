@@ -32,7 +32,7 @@ class _AppEducationImageMobileState extends State<AppEducationImageMobile> {
         _isHovered = false;
       }),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(8),
+        borderRadius: BorderRadius.circular(0),
         child: Stack(
           fit: StackFit.expand,
           children: [

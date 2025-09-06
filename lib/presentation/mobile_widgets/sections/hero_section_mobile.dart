@@ -12,6 +12,7 @@ class HeroSectionMobile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         AppProfileImageCardMobile(),
         SizedBox(height: 32),
@@ -46,7 +47,7 @@ class HeroSectionMobile extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
         ),
-        SizedBox(height: 8),
+        SizedBox(height: 16),
 
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),

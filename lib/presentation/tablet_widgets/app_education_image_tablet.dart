@@ -32,7 +32,7 @@ class _AppEducationImageTabletState extends State<AppEducationImageTablet> {
         _isHovered = false;
       }),
       child: ClipRRect(
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(0),
         child: Stack(
           fit: StackFit.expand,
           children: [
