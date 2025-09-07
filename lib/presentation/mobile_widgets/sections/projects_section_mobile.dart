@@ -15,7 +15,7 @@ class ProjectsSectionMobile extends StatelessWidget {
         AppSectionTitle(title: 'SOME THINGS I HAVE BUILT'),
         SizedBox(height: 32),
         AppProjectCardMobile(
-          image: 'assets/images/growth sprout poster.jpeg',
+          image: 'assets/images/growth sprout poster.png',
           title: 'Growth Sprout',
           url: AppStrings.growthSproutLink,
 
@@ -33,7 +33,7 @@ class ProjectsSectionMobile extends StatelessWidget {
           desc: AppStrings.growthSproutDesc,
         ),
         AppProjectCardMobile(
-          image: 'assets/images/expentrix poster.jpeg',
+          image: 'assets/images/expentrix poster.png',
           title: 'Expentrix',
           url: AppStrings.expentrixLink,
 
@@ -52,7 +52,7 @@ class ProjectsSectionMobile extends StatelessWidget {
         ),
 
         AppProjectCardMobile(
-          image: 'assets/images/wordle poster.jpeg',
+          image: 'assets/images/wordle poster.jpg',
           title: 'Wordle',
           color: AppColors.blueWhite2,
           url: AppStrings.wordleLink,

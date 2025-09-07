@@ -32,7 +32,7 @@ class _AppTechCardState extends State<AppTechCard> {
             color: AppColors.white,
             border: _isHovered
                 ? Border.all(color: AppColors.primary)
-                : Border.all(color: AppColors.white),
+                : Border.all(color: AppColors.primary.withAlpha(64)),
             boxShadow: [
               _isHovered
                   ? AppBoxShadows.purpleShadowHovered

@@ -15,7 +15,7 @@ class ProjectsSection extends StatelessWidget {
         AppSectionTitle(title: ' SOME THINGS I HAVE BUILT'),
         AppSpacings.desktopTitleSpacing,
         AppProjectCard(
-          image: 'assets/images/growth sprout poster.jpeg',
+          image: 'assets/images/growth sprout poster.png',
           title: 'Growth Sprout',
           url: AppStrings.growthSproutLink,
           color: AppColors.greenWhite,
@@ -32,7 +32,7 @@ class ProjectsSection extends StatelessWidget {
           desc: AppStrings.growthSproutDesc,
         ),
         AppProjectCard(
-          image: 'assets/images/expentrix poster.jpeg',
+          image: 'assets/images/expentrix poster.png',
           title: 'Expentrix',
           url: AppStrings.expentrixLink,
 
@@ -51,7 +51,7 @@ class ProjectsSection extends StatelessWidget {
           subTitle: 'Expense Tracker.',
         ),
         AppProjectCard(
-          image: 'assets/images/wordle poster.jpeg',
+          image: 'assets/images/wordle poster.jpg',
           title: 'Wordle',
           color: AppColors.blueWhite2,
           url: AppStrings.wordleLink,

@@ -25,7 +25,7 @@ class _AppProfileImageCardState extends State<AppProfileImageCard> {
         padding: EdgeInsets.all(16),
         decoration: BoxDecoration(
           color: AppColors.white,
-          borderRadius: BorderRadius.circular(16),
+          borderRadius: BorderRadius.circular(24),
           boxShadow: [AppBoxShadows.purpleShadow],
         ),
         child: ClipRRect(

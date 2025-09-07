@@ -56,6 +56,7 @@ class _AppProjectCardState extends State<AppProjectCard> {
           }),
           child: Container(
             padding: EdgeInsets.all(16),
+
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(24),
               color: AppColors.white,

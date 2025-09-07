@@ -17,7 +17,7 @@ class ProjectsSectionTablet extends StatelessWidget {
         AppSectionTitle(title: 'SOME THINGS I HAVE BUILT'),
         SizedBox(height: 32),
         AppProjectCardTablet(
-          image: 'assets/images/growth sprout poster.jpeg',
+          image: 'assets/images/growth sprout poster.png',
           title: 'Growth Sprout',
           url: AppStrings.growthSproutLink,
 
@@ -35,7 +35,7 @@ class ProjectsSectionTablet extends StatelessWidget {
           desc: AppStrings.growthSproutDesc,
         ),
         AppProjectCardTablet(
-          image: 'assets/images/expentrix poster.jpeg',
+          image: 'assets/images/expentrix poster.png',
           title: 'Expentrix',
           url: AppStrings.expentrixLink,
 
@@ -54,7 +54,7 @@ class ProjectsSectionTablet extends StatelessWidget {
         ),
 
         AppProjectCardTablet(
-          image: 'assets/images/wordle poster.jpeg',
+          image: 'assets/images/wordle poster.jpg',
           title: 'Wordle',
           color: AppColors.blueWhite2,
           url: AppStrings.wordleLink,
